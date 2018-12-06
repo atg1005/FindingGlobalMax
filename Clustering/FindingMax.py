@@ -12,7 +12,6 @@ def max_of_array(np_data):
     """
     maxP = np_data[0][1]
     for point in np_data:
-        #print(point[1])
         if maxP < point[1]:
             maxP = point[1]
     return maxP
