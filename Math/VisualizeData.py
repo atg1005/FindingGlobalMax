@@ -7,7 +7,6 @@ y_data = []
 fCoefficients = []
 fPrimeCoefficients = []
 
-
 def showGraphs():
     """
     Plots data points. Function modeling data. Derivative of function modeling data.
