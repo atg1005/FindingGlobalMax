@@ -162,7 +162,7 @@ if __name__ == '__main__':
 
     print('Cluster Type','Max Found','Hour','Execution Time',sep='\t')
     print('Affinity Prop\t',ap_max,'\t',x_data[y_data.index(ap_max)] if ap_max in y_data else '\tN/A','\t',round(ap_time,4))
-    print('Kmeans Max\t',kmeans_max,'\t',x_data[y_data.index(kmeans_max)]if kmeans_max in y_data else '\tN/A','\t',round(kmeans_time,4))
+    print('K-Means \t',kmeans_max,'\t',x_data[y_data.index(kmeans_max)]if kmeans_max in y_data else '\tN/A','\t',round(kmeans_time,4))
     print('Mean Shift\t',mean_shift_max,'\t',x_data[y_data.index(mean_shift_max)]if mean_shift_max in y_data else '\tN/A','\t',round(mean_shift_time,4))
     print('EM using GMM\t',gmm_max,'\t',x_data[y_data.index(gmm_max)]if gmm_max in y_data else '\tN/A','\t',round(gmm_time,4))
 
